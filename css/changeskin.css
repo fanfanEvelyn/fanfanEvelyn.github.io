@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+#skin{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    margin-left: 30px;
+    background: #ffc0cb;
+    cursor: pointer;
+}
+#hide{
+    cursor: pointer;
+}
+.skin-main{
+    width: 500px;
+    /*height: 700px;*/
+    border: 1px solid red;
+    margin-left: 30px;
+    display: none;
+
+
+}
+.skin-main .skin-title{
+    /*width:500px;*/
+    height:30px;
+    border: 1px solid #cd5c5c;
+    text-align: center;
+    line-height: 30px;
+}
+.skin-main .skin-title div{
+    width: 100px;
+    height: 30px;
+    background: #0099CC;
+    margin-right: 15px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+.skin-main .skin-cont{
+    width: 500px;
+    /*height: 100px;*/
+    /*border:1px solid darkmagenta;*/
+    /*margin-top: 10px;*/
+    display: none;
+
+}
+/* .s1,.s2,.s3,.s4,.s11,.s12,.s13,.s14,.s15,.s16,.s17,.s18,.s19,.s20,.s21,.s22{
+    width:100px;
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+     margin-top: 20px;
+
+}*/
+.s1{
+    background: red;
+
+}
+.s2{
+    background: pink;
+
+}
+.s3{
+    background: green;
+
+}
+.s4{
+    background: yellow;
+}
+.s11{
+    background: black;
+
+}
+.s12{
+    background: #0a0;
+
+}
+.s13{
+    background: #cd5c5c;
+
+}
+.s14{
+    background: #0000ff;
+}
+.s15{
+    background: red;
+
+}
+.s16{
+    background: pink;
+
+}
+.s17{
+    background: green;
+
+}
+.s18{
+    background: yellow;
+}
+.s19{
+    background: black;
+
+}
+.s20{
+    background: #0a0;
+
+}
+.s21{
+    background: #cd5c5c;
+
+}
+.s22{
+    background: #0000ff;
+}

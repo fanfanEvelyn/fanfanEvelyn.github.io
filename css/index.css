@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    font-size: 14px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #0099CC;
+}
+.clearfix:after
+{
+    content: "";
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+h3{
+    margin-bottom: 40px;
+}
+.banner{
+    height: 50px;
+    background-color: #0099cc;
+    text-align: center;
+    /*padding-left: 150px;*/
+    line-height: 50px;
+    color: #ffffff;
+    /*font-weight: bold;*/
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-nav{
+    width: 20%;
+    float: left;
+    padding: 40px 10px;
+    text-align: center;
+
+
+}
+.main-nav ul li{
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E7F4FD;
+    line-height: 40px;
+    margin-top: -1px;
+}
+
+.main-right{
+    width: 72%;
+    float: right;
+    /*height: 800px;*/
+    /*border: 1px solid red;*/
+    padding: 40px 10px;
+}
+.main-right .main-right-cont{
+    width: 100%;
+    /*height: 600px;*/
+    /*border: 1px solid #00aa00;*/
+    display: none;
+    line-height: 30px;
+}
+.main-right .active {
+    display: block;
+}
+ .btn{
+    background:#ccc url("../images/favicon.ico") no-repeat;
+    background-size: 25px;
+     background-position: 10%;
+    padding: 4px 8px 4px 35px;
+    border: none;
+    border-radius: 5px;
+     margin-top: 20px;
+     display: inline-block;
+     color: #000;
+}
+ .desription{
+     margin-top: 20px;
+ }
