@@ -221,12 +221,15 @@
 </div>
 </div>
       <div>
-    <input class="js_upFile cover1" type="file" name="cover" accept="image/*" capture="camera" multiple />
+   <input type="file" accept="image/*" @change="imgchang" ref="inputFile">
   </div>
 <script src="javascript/index.js"></script>
 <script src=javascript/tabjs.js></script>
 <script src="javascript/changeskin.js"></script>
 <script>
+    function imgchang(e){
+    console.log(e)
+    }
     var checkall=document.getElementById("checkAll");
     var checks=document.getElementsByName("check");
     checkall.onclick=function () {
