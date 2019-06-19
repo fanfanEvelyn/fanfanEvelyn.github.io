@@ -227,15 +227,6 @@
 <script src=javascript/tabjs.js></script>
 <script src="javascript/changeskin.js"></script>
 <script>
-      $(function () {
-    //获取浏览器的userAgent,并转化为小写
-    var ua = navigator.userAgent.toLowerCase();
-    //判断是否是苹果手机，是则是true
-    var isIos = (ua.indexOf('iphone') != -1) || (ua.indexOf('ipad') != -1);
-    if (isIos) {
-      $("input:file").removeAttr("capture");
-    };
-  })
     var checkall=document.getElementById("checkAll");
     var checks=document.getElementsByName("check");
     checkall.onclick=function () {
